@@ -25,7 +25,7 @@ ln -fs /mnt/data/*.fq .
 cd /usr/local/share
 git clone https://github.com/ged-lab/khmer.git
 cd khmer
-git checkout v1.0.1
+git checkout -b v1.0.1
 git merge origin/cs/sweepfix
 make install
 
